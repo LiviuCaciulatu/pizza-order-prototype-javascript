@@ -1,0 +1,80 @@
+{
+    "pizza": 
+    [
+        {
+            "id": 1,
+            "name": "Capricciosa",
+            "ingredients": [ "San Marzano tomato sauce", " mozzarella", " bacon", " tomatoes", " mushrooms" ],
+            "price": 29,
+            "allergens": [1,2,3],
+            "img": "https://img.sunset02.com/sites/default/files/image/recipes/su/14/09/capricciosa-pizza-su-x.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Rustica",
+            "ingredients": [ "San Marzano tomato sauce", " cheese", " mozzarella", " bacon", " tomatoes", " onions" ],
+            "price": 30,
+            "allergens": [1,2,3],
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF7HMV3N3G4O0pA5qFp7oMPr15K9_UeVEFj5s1hDR3nBDIflbXIxvGNzv5f5202vsVOjQ&usqp=CAU"
+        },
+        {
+            "id": 3,
+            "name": "Diavola",
+            "ingredients": [ "San Marzano tomato sauce", " mozzarella", " pepperoni", " chorizo", " tomatoes", " olives" ],
+            "price": 31,
+            "allergens": [1,2,3,4],
+            "img": "https://www.casapetrina.ro/wp-content/uploads/2020/04/pizza-diavola-scaled.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Margherita",
+            "ingredients": [ "San Marzano tomato sauce", " mozzarella", " flour", " salt" ],
+            "price": 32,
+            "allergens": [1,2],
+            "img": "https://www.casapetrina.ro/wp-content/uploads/2020/04/pizza-margherita-scaled.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Toscana",
+            "ingredients": [ "San Marzano tomato sauce ", " mozzarella ", " bacon ", " tomatoes " ],
+            "price": 33,
+            "allergens": [1,2,3],
+            "img": "https://www.sabatinipizza.ro/upload/shop/products/pizza_toscana.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Quattro Stagioni",
+            "ingredients": [ "San Marzano tomato sauce", " chorizo", " bacon", " mushrooms", " bell pepper" ],
+            "price": 34,
+            "allergens": [1,2,3],
+            "img": "https://partigiano.ro/wp-content/uploads/2022/09/Quattro-Stagioni-1.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Cheesy",
+            "ingredients": [ "San Marzano tomato sauce", "mozzarella", "cheese", "cheddar" ],
+            "price": 35,
+            "allergens": [1,2,7,20,23],
+            "img": "https://www.foodandwine.com/thmb/Wd4lBRZz3X_8qBr69UOu2m7I2iw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-cheese-pizza-FT-RECIPE0422-31a2c938fc2546c9a07b7011658cfd05.jpg"
+        }
+    ],
+    "allergens":
+    [
+        {
+            "id": 1,
+            "name": "gluten"
+        },
+        {
+            "id": 2,
+            "name": "lactose"
+        },
+        {
+            "id": 3,
+            "name": "soy"
+        },
+        {
+            "id": 4,
+            "name": "mustard"
+        }
+    ]
+}
