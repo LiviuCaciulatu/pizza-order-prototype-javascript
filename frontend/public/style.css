@@ -1,0 +1,221 @@
+#root{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+body{
+    background: #23EC55;
+background: -webkit-radial-gradient(top right, #23EC55, #2D51C1);
+background: -moz-radial-gradient(top right, #23EC55, #2D51C1);
+background: radial-gradient(to bottom left, #23EC55, #2D51C1);
+}
+.full-menu{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    place-items: flex-start;
+    
+}
+
+.list-group-item{
+    backdrop-filter: blur(10px);
+    background-color: #56d185;
+}
+
+.card{
+    
+    border: #333; 
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    overflow:hidden;
+    border-radius:20px;
+    min-height:450px;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+    backdrop-filter: blur(10px);
+    background-color:#56d185;
+    
+   @media (max-width: 768px) {
+    min-height:350px;
+  }
+  
+  @media (max-width: 420px) {
+    min-height:300px;
+  }
+  }
+  .card .card-has-bg {
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  
+    &:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: inherit;
+      -webkit-filter: grayscale(1);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+    }
+  
+    &:hover {
+      transform: scale(0.98);
+      box-shadow: 0 0 5px -2px rgba(0, 0, 0, 0.3);
+      background-size: 130%;
+      transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  
+      .card-img-overlay {
+        transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+        background: rgb(35, 79, 109);
+        background: linear-gradient(
+          0deg,
+          rgba(4, 69, 114, 0.5) 0%,
+          rgba(4, 69, 114, 1) 100%
+        );
+      }
+    }
+  }
+  
+  .card-footer {
+    background: none;
+    border-top: none;
+  
+    .media {
+      img {
+        border: solid 3px rgba(255, 255, 255, 0.3);
+      }
+    }
+  }
+  
+  .card-meta {
+    color: #26bd75;
+  }
+  
+  .card-body {
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  .card:hover {
+    .card-body {
+      margin-top: 30px;
+      transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+    }
+    cursor: pointer;
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  
+  .card-img-overlay {
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+    background: rgb(35, 79, 109);
+    background: linear-gradient(
+      0deg,
+      rgba(35, 79, 109, 0.3785889355742297) 0%,
+      rgba(69, 95, 113, 1) 100%
+    );
+  }
+  @media (max-width: 767px){
+  }
+
+
+.filter{
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top {
+    height: 288px;
+    width: 288px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.withAllergen {
+    background-color: red;
+}
+
+
+.quantity-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.place-order{
+    background-color: white;
+    border-color: white;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  visibility: hidden;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+  font-size: 16px;
+  width: 100%;
+}
+input {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    background: transparent;
+    width: 200px;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: none;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    border-radius: 1500px;
+    backdrop-filter: blur(5px);
+    box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.45);
+    color: #e5c4c4;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2)
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.501);
+}
+
+.customerName{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.email{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.city{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.address{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
